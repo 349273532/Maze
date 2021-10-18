@@ -176,7 +176,7 @@ class YuVictorMazeAssignmentSusEdition{
       //Brings the S back in to the maze
       recurSusSolve[locationSave[0]][locationSave[1]] = 'S';
       //Printing out the maze the solve
-      System.out.println("There is a imposter among us \nPrinting out the Sus path:");
+      System.out.println("There is an imposter among us \nPrinting out the Sus path:");
       printArray(recurSusSolve);
     }
 
